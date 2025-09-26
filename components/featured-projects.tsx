@@ -10,20 +10,20 @@ export function FeaturedProjects() {
       title: "Soni Painting Business Manager",
       description:
         "A comprehensive business management platform for painters to create quotations, generate invoices, manage client relationships, and track project progress with payment collection features.",
-      image: "/business-management-dashboard-for-painters.jpg",
+      image: "/business-management-dashboard-for-painters.png",
       technologies: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "shadcn/ui"],
-      github: "#",
-      live: "https://sonipainting.com",
+      github: "https://github.com/sahzadahmad246/sonipaintingapp",
+      live: "https://www.sonipainting.com/",
       featured: true,
     },
     {
       title: "Poetry Platform",
       description:
         "An elegant poetry platform where admins can manage poetry content with detailed articles, while users enjoy a beautiful feed with bookmark, like, and download couplet features.",
-      image: "/poetry-platform-with-elegant-design.jpg",
+      image: "/poetry-platform-with-elegant-design.png",
       technologies: ["Next.js", "TypeScript", "Redis", "MongoDB", "Tailwind CSS"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/sahzadahmad246/unmatched-lines",
+      live: "https://www.unmatchedlines.com/",
       featured: true,
     },
   ]

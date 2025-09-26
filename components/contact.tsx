@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { Mail, Twitter, Github, Linkedin } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { motion } from "framer-motion"
+import { Mail, Twitter, Github, Linkedin } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
 
 export function Contact() {
   return (
@@ -16,8 +16,10 @@ export function Contact() {
       >
         <h2 className="text-3xl font-bold mb-6">Let's Work Together</h2>
         <p className="text-muted-foreground leading-relaxed mb-8">
-          I'm always interested in hearing about new opportunities and interesting projects. Whether you're a company
-          looking to hire, or you're a fellow developer who wants to collaborate, I'd love to hear from you.
+          I'm always interested in hearing about new opportunities and
+          interesting projects. Whether you're a company looking to hire, or
+          you're a fellow developer who wants to collaborate, I'd love to hear
+          from you.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -29,9 +31,9 @@ export function Contact() {
             viewport={{ once: true }}
           >
             <Button asChild className="w-full justify-start">
-              <a href="mailto:shahzad@example.com">
+              <a href="mailto:sahzadahmad246@gmail.com">
                 <Mail className="w-4 h-4 mr-3" />
-                shahzad@example.com
+               Email
               </a>
             </Button>
           </motion.div>
@@ -43,8 +45,16 @@ export function Contact() {
             transition={{ duration: 0.4, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <Button variant="outline" asChild className="w-full justify-start bg-transparent">
-              <a href="https://twitter.com/shahzad_dev" target="_blank" rel="noopener noreferrer">
+            <Button
+              variant="outline"
+              asChild
+              className="w-full justify-start bg-transparent"
+            >
+              <a
+                href="https://twitter.com/shazcodes"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Twitter className="w-4 h-4 mr-3" />
                 DM me on Twitter
               </a>
@@ -60,24 +70,38 @@ export function Contact() {
           viewport={{ once: true }}
         >
           <Button variant="ghost" size="sm" asChild>
-            <a href="https://github.com/shahzad" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/sahzadahmad246"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Github className="w-5 h-5" />
             </a>
           </Button>
           <Button variant="ghost" size="sm" asChild>
-            <a href="https://linkedin.com/in/shahzad" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/shahzad-ahmad-a41865185?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Linkedin className="w-5 h-5" />
             </a>
           </Button>
           <Button variant="ghost" size="sm" asChild>
-            <a href="https://twitter.com/shahzad_dev" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://twitter.com/shzcodes"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Twitter className="w-5 h-5" />
             </a>
           </Button>
         </motion.div>
 
-        <p className="text-sm text-muted-foreground mt-8">© 2025 Shahzad. Built with Next.js and Tailwind CSS.</p>
+        <p className="text-sm text-muted-foreground mt-8">
+          © 2025 Shahzad. Built with Next.js and Tailwind CSS.
+        </p>
       </motion.div>
     </section>
-  )
+  );
 }

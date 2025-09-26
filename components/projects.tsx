@@ -11,16 +11,16 @@ export function Projects() {
       description:
         "A comprehensive food ordering system like Zomato with customer cart functionality, Razorpay checkout, and restaurant dashboard for order management, menu updates, and analytics.",
       technologies: ["React", "JavaScript", "MongoDB", "Express.js", "Razorpay"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/sahzadahmad246/thaichillichina",
+      live: "https://thaichillichina.onrender.com",
     },
     {
       title: "Pothole Reporting Map",
       description:
         "A civic platform for reporting road potholes with image uploads, location details, size information, and moderation system for status updates and spam detection.",
       technologies: ["Next.js", "MongoDB", "Tailwind CSS", "shadcn/ui", "Maps API"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/sahzadahmad246/potholemap",
+      live: "https://potholemap-seven.vercel.app/",
     },
   ]
 
