@@ -25,7 +25,7 @@ export function Projects() {
   ]
 
   return (
-    <section id="projects" className="py-0 border border-red-500" >
+    <section id="projects" className="py-0" >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
